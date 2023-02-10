@@ -1,0 +1,193 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+/////////////////// Brand Logo //////////////
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+/////////////////// Nav Links ////////////// 
+nav a.nav-link {
+  
+    &:hover {
+      color: #27799C;
+    }
+  }
+/////////////////// Skills ////////////// 
+
+  #Skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .icon-card {
+        margin: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+    .icon-card:hover {
+      transform: scale(1.2);
+    }
+   
+
+}
+
+button {
+  background-color: #27799C;
+}
+
+/////////////////// Buttons ////////////// 
+.download-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-button {
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  box-shadow: black 0px 0px 0px 1px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+
+  &:hover {
+    background-color: #27799C;
+    color: white;
+  }
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+.contact-button {
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  box-shadow: black 0px 0px 0px 1px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+  &:hover {
+  background-color: #27799C;
+  color: white;
+  }
+  }
+////////////// Contact Page/////////
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .container {
+        margin: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+
+  }
+}  
+  
+/////////////////// Footer  ////////////// 
+  
+#social {
+  
+  .bi{
+    margin: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+  }
+    .bi:hover {
+      transform: scale(1.2);
+    }
+
+}
+
+footer a.nav-link {
+  
+  &:hover {
+    color: #27799C;
+  }
+ 
+}
+   
+#contact {
+
+  p{
+     display: inline;
+  }
+}
+ 
+footer {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    
+}
+  
+
+#copyright {
+  font-size: 0.625rem;
+  .open-source {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  a:hover {
+    color: #27799C !important;
+  }
+}
+
+
+  
+  ///////////// back to top  /////////////
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  
+  .text-white a {
+    color: #ffffff;
+  }
+  
+
+
+
+
+
+  
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
