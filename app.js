@@ -30,3 +30,7 @@ const button = document.querySelector('.download-button');
 button.addEventListener('click', function() {
   window.open('https://drive.google.com/file/d/17CaFpOdrpxaRxaOW_AdD6dRrc_KlUKRC/view?usp=sharing', '_blank');
 });
+
+
+var img = new Image();
+img.src = '../img/emre turan/background removed-website.svg';
