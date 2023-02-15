@@ -167,9 +167,26 @@ footer {
   }
 }
 
-
+//////  Cards   ////////////
   
-  ///////////// back to top  /////////////
+.card-link {
+  text-decoration: none;
+  color:black;
+  display: inline-block;
+
+  &:hover {
+  color: #27799C;  
+}
+}
+
+.card-text {
+   font-size: smaller;
+}
+
+.card-img-top{
+  padding: 50px;
+}
+///////////// back to top  /////////////
 
   #btn-back-to-top {
     position: fixed;

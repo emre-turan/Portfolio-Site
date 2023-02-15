@@ -125,6 +125,23 @@ footer {
   color: #27799C !important;
 }
 
+.card-link {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.card-link:hover {
+  color: #27799C;
+}
+
+.card-text {
+  font-size: smaller;
+}
+
+.card-img-top {
+  padding: 50px;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
